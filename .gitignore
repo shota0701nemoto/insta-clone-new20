@@ -17,6 +17,11 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
+/public/uploads/
+/vendor/bundle
+/tmp/chache
+/tmp/pids
+/tmp/sockets
 
 # Ignore uploaded files in development.
 /storage/*
@@ -34,3 +39,4 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+s
