@@ -17,11 +17,11 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
-/public/uploads/
-/vendor/bundle
-/tmp/chache
-/tmp/pids
-/tmp/sockets
+public/uploads/
+vendor/bundle/
+tmp/chache/
+tmp/pids/
+tmp/sockets/
 
 # Ignore uploaded files in development.
 /storage/*
@@ -33,9 +33,9 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
-/public/packs
-/public/packs-test
-/node_modules
+public/packs/
+public/packs-test/
+node_modules/
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
